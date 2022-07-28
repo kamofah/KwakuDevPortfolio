@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <title>Kwaku A. Developer Portfolio</title>
+</head>
+<body>
+    <div class="navigation">
+        <p class="logo">Kwaku A.</p>
+        <nav>
+            <a href="#Hero"><p>Home</p></a>
+            <a href="#aboutSection"><p>About</p></a>
+            <a href="#skillsSection"><p>Skills & Interests</p></a>
+            <a href="#ProjectSection"><p>Projects</p></a>
+        </nav>
+    </div>
+    <div class="Hero" id="Hero">
+        <div class="heroSection">
+            <div class="HeroContent">
+                <p>Aspiring Software Engineer</p>
+                <h1>Helping You Build <br> The Best Software <br> Possible</h1>
+               <a href="#contactSection"><button class="contactButton">Contact Me</button></a>
+            </div>
+            <div class="heroImgSection">
+                <!-- <div class="hero-decoration"></div> -->
+                <img class="heroImg" src="assets/kwaku_hero.png" alt="Picture of Kwaku A">
+            </div>
+        </div>
+    </div>
+    <div class="Affiliations">
+        <img class="affiliationLogos googleLogo" src="assets/Google_Logo_2015.png" alt="Google logo">
+        <img class="affiliationLogos" src="assets/syracuse-university-logo.png" alt="Syracuse University logo">
+        <img class="affiliationLogos" src="assets/ASCLogo.png" alt="All Star Code logo">
+    </div>
+    <div class="About" id="aboutSection">
+        <div class="AboutImage">
+            <img class="aboutImg" src="assets/kwaku_about.jpg" alt="Picture of Kwaku">
+        </div>
+        <div class="AboutContent">
+            <div class="bar-decoration"></div>
+            <p>About Me</p>
+            <h3>Kwaku A.</h3>
+            <p class="aboutText">
+                I am a '21, '22 Google Step Intern and aspiring Sotware Engineer. 
+                Currently I'm a undergraduate Sophomore majoring in Computer Science and minoring 
+                in Sports Analytics at Syracuse University. I'm always interested in new opportunities to 
+                help companies build modern web and mobile applications that serve users across the world.
+            </p>
+        </div>
+    </div>
+    <div class="skillsSection" id="skillsSection">
+        <p class="sectionHeading skillsTitle">Skills & Interests</p>
+        <div class="skillsContent">
+            <div class="experience">
+                <div class="tag">
+                    <div class="tag-decoration"></div>
+                    <p>'21 & '22 Google STEP Intern</p>
+                </div>
+                <div class="tag">
+                    <div class="tag-decoration"></div>
+                    <p>'20 Google CSSI Alumni</p>
+                </div>
+                <div class="tag">
+                    <div class="tag-decoration"></div>
+                    <p>'18 Teaching Fellow at All Star Code</p>
+                </div>
+                <div class="tag">
+                    <div class="tag-decoration"></div>
+                    <p>Syracuse Invest In Success Scholar</p>
+                </div>
+            </div>
+            <div class="skills">
+                <div class="tag">
+                    <div class="tag-decoration"></div>
+                    <p>HTML, CSS, & JavaScript</p>
+                </div>
+                <div class="tag">
+                    <div class="tag-decoration"></div>
+                    <p>Python</p>
+                </div>
+                <div class="tag">
+                    <div class="tag-decoration"></div>
+                    <p>React & React Native</p>
+                </div>
+                <div class="tag">
+                    <div class="tag-decoration"></div>
+                    <p>Angular & TypeScript</p>
+                </div>
+            </div>
+            <div class="interests">
+                <div class="tag">
+                    <div class="tag-decoration"></div>
+                    <p>Web, Mobile & Desktop Dev.</p>
+                </div>
+                <div class="tag">
+                    <div class="tag-decoration"></div>
+                    <p>Game Development</p>
+                </div>
+                <div class="tag">
+                    <div class="tag-decoration"></div>
+                    <p>Sports Analytics</p>
+                </div>
+                <div class="tag cv">
+                    <i class="fa-solid fa-arrow-down-to-bracket"></i>
+                    <p>Download CV</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="Projects" id="ProjectSection">
+        <p class="sectionHeading projectTitle">Projects</p>
+        <div class="projectSection">
+            <div class="projectCard"></div>
+            <div class="projectCard"></div>
+            <div class="projectCard"></div>
+        </div>
+    </div>
+    <div class="Contacts" id="contactSection">
+        <p class="sectionHeading">Contacts</p>
+        <div class="bar-decoration"></div>
+        <div class="contactsContent">
+            <form action="https://formspree.io/f/xgedgpyk" method="post">
+                <div class="inputSection">
+                    <Label for="name">Name:</Label>
+                    <input name="Name" id="name" type="text">
+                </div>
+                <div class="inputSection">
+                    <Label for="email">Email:</Label>
+                    <input name="Email" id="email" type="email">
+                </div>
+                <div class="inputSection">
+                    <Label for="phone">Phone Number:</Label>
+                    <input name="Phone" id="phone" type="tel">
+                </div>
+                <div class="inputSection">
+                    <Label for="inquery">Inquery:</Label>
+                    <select name="Inquery" id="inquery">
+                        <option value="Job/Internship">Job/Internship</option>
+                        <option value="Collaboration">Collaboration</option>
+                        <option value="Freelance">Freelance</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+                <div class="inputSection">
+                    <Label for="message">Message:</Label>
+                    <textarea name="Message" id="message" type="tel"></textarea>
+                </div>
+                <div class="inputSection">
+                    <input class="submit" type="submit">
+                </div>
+            </form>
+            <img class="contactImg" src="assets/kwaku_contact.JPG" alt="Second Picture of Kwaku">
+        </div>
+        
+    </div>
+    <Footer>
+        <div class="Socials">
+            <p class="footerHeading">Socials</p>
+            <ul class="socialsContent">
+                <a href="https://www.instagram.com/codewithkwaku/" class="footerLink"><li>Instagram</li></a>
+                <a href="https://www.linkedin.com/in/kamofah/" class="footerLink"><li>LinkedIn</li></a>
+                <a href="https://github.com/kamofah" class="footerLink"><li>GitHub</li></a>
+                <a href="" class="footerLink"><li>Twitter</li></a>
+            </ul>
+        </div>
+        <div class="Extra">
+            <p class="footerHeading">More Porjeects</p>
+            <ul class="extraContent">
+                <a href="" class="footerLink"><li>Inquirix</li></a>
+                <a href="" class="footerLink"><li>Sports-Deck</li></a>
+                <a href="" class="footerLink"><li>TBD</li></a>
+                <a href="" class="footerLink"><li>TBD</li></a>
+            </ul>
+        </div>
+    </Footer>
+</body>
+</html>
